@@ -11,9 +11,9 @@ development:
   reconnect: false
   database: lamp_development
   pool: 5
-  username: ksmercury
-  password: Ksark007#
-  host: localhost
+  username: root
+  password: 
+  host: 127.0.0.1
   socket: /tmp/mysql.sock
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -24,9 +24,9 @@ test:
   reconnect: false
   database: lamp_test
   pool: 5
-  username: ksmercury
-  password: Ksark007#
-  host: localhost
+  username: root
+  password: 
+  host: 127.0.0.1
   socket: /tmp/mysql.sock
 production:
   adapter: mysql2
@@ -34,7 +34,7 @@ production:
   reconnect: false
   database: lamp_production
   pool: 5
-  username: ksmercury
-  password: Ksark007#
-  host: localhost
+  username: root
+  password: 
+  host: 127.0.0.1
   socket: /tmp/mysql.sock
