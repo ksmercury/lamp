@@ -24,8 +24,8 @@ test:
   reconnect: false
   database: lamp_test
   pool: 5
-  username: root
-  password:
+  username: ksmercury
+  password: Ksark007#
   host: localhost
   socket: /tmp/mysql.sock
 production:
@@ -34,7 +34,7 @@ production:
   reconnect: false
   database: lamp_production
   pool: 5
-  username: root
-  password:
+  username: ksmercury
+  password: Ksark007#
   host: localhost
   socket: /tmp/mysql.sock
